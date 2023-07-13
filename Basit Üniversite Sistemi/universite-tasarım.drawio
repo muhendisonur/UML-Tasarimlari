@@ -1,0 +1,115 @@
+<mxfile host="Electron" modified="2023-07-13T19:19:40.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="M2fcZ5EK8PqaVR9bK_As" version="21.6.1" type="device">
+  <diagram name="Page-1" id="zwm6t8BEow-w8ZJWur-N">
+    <mxGraphModel dx="977" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="azqIGX8xGsqhrgldOKSe-1" value="Universite" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="40" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-2" value="+ isim : String&lt;br&gt;+ adres : String&lt;br&gt;+ telefonNo : Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-1" vertex="1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="azqIGX8xGsqhrgldOKSe-1" vertex="1">
+          <mxGeometry y="80" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-1" vertex="1">
+          <mxGeometry y="90" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=1;" parent="1" source="azqIGX8xGsqhrgldOKSe-5" target="azqIGX8xGsqhrgldOKSe-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-5" value="Siniflik" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-6" value="+ bulunduguBina : String&lt;br&gt;+ bulunduguKat : Int&lt;br&gt;+ kapasite : Int&lt;br&gt;- sinifNo : Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-5" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="azqIGX8xGsqhrgldOKSe-5" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-8" value="+ Olustur(binaPara : String, katPara : String, kapasitePara : Int) : Void&lt;br&gt;+Guncelle(ozellikIsmi : String, yeniDeger : Object) : Void&lt;br&gt;+Sil(noPara: Int) : Void&lt;br&gt;+ Goster() : Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-5" vertex="1">
+          <mxGeometry y="98" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;verticalAlign=middle;horizontal=1;" parent="1" source="azqIGX8xGsqhrgldOKSe-11" target="azqIGX8xGsqhrgldOKSe-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-11" value="Ofis" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="490" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-12" value="+ isim: String&lt;br&gt;+ kapasite : Int&lt;br&gt;+ personelSayisi : Int = 1&lt;br&gt;- id : Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-11" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="azqIGX8xGsqhrgldOKSe-11" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-14" value="+ Olustur(isimPara : String, kapasitePara : Int) : Void&lt;br&gt;+ Guncelle(ozellikIsmi : String, yeniDeger : Object) : Void&lt;br&gt;+ Sil(idPara : Int) : Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-11" vertex="1">
+          <mxGeometry y="98" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=1;" parent="1" source="azqIGX8xGsqhrgldOKSe-18" target="azqIGX8xGsqhrgldOKSe-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-18" value="Departman" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="200" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-19" value="+ departmanAdi : String&lt;br&gt;+ aitOlduguFakulte : String&lt;br&gt;+ personelSayisi : Int = 10&lt;br&gt;- id : Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-18" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="azqIGX8xGsqhrgldOKSe-18" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-21" value="+ Olustur(adPara : String, fakultePara : String, personelSayisiPara : Int) : Void&lt;br&gt;+ Guncelle(ozellikIsmi : String, yeniDeger : Object) : Void&lt;br&gt;+ Sil(idPara : Int) : Void&lt;br&gt;+ Goster() : Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-18" vertex="1">
+          <mxGeometry y="98" width="160" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="azqIGX8xGsqhrgldOKSe-24" target="azqIGX8xGsqhrgldOKSe-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-24" value="Personel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="750" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-25" value="+ ad : String&lt;br&gt;+ soyad : String&lt;br&gt;+ unvan : String&lt;br&gt;+ id : Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-24" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="azqIGX8xGsqhrgldOKSe-24" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-27" value="+ Olustur(isim : String, soyad : String, unvan : String) : Void&lt;br&gt;+ Guncelle(degisecekAlan : String, yeniDeger : String) :Void&lt;br&gt;+ Sil(silinecekId : Int) : Void&lt;br&gt;+ bilgiCagir(ozellikIsmi : String) : Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="azqIGX8xGsqhrgldOKSe-24" vertex="1">
+          <mxGeometry y="98" width="160" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-30" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="100" y="187" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-31" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="314" y="160" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-32" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="344" y="160" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-33" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="539" y="187" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-34" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="535" y="478" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-35" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="531" y="442" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-36" value="5..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="534" y="739" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="azqIGX8xGsqhrgldOKSe-38" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="531" y="701" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tvBkli0WMKJjbFBxzMoa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="azqIGX8xGsqhrgldOKSe-27" target="azqIGX8xGsqhrgldOKSe-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvBkli0WMKJjbFBxzMoa-4" value="depertmanMuduru" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="354" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tvBkli0WMKJjbFBxzMoa-7" value="mudureSahip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="637" y="928" width="30" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
